@@ -6,3 +6,13 @@ diccionario, en otro diccionario almacenar el tipo de cambio a Soles y mostrar
 el cambio del monto ingresado a soles.
 monedas = {'Euro':'€', 'Dollar':'$', 'Yen':'¥', 'Soles':'S/'}
 """
+monedas = {
+    'Euro': '€',
+    'Dollar': '$',
+    'Yen': '¥',
+    'Soles': 'S/'
+}
+
+
+monto = int(input("ingrese un monto: "))
+divisa = int(input("ingrese una divisa: "))
